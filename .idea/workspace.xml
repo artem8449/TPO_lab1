@@ -21,22 +21,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="7" />
+          <entry key="JAVA/patr3" value="1" />
+          <entry key="java" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="7" />
+          <entry key="JAVA" value="22" />
+          <entry key="UML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3245" />
+          <entry key="java" value="3772" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3245" />
+          <entry key="JAVA" value="3772" />
         </counts>
       </usages-collector>
     </session>
@@ -44,49 +46,250 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arcsin.java">
+        <entry file="file://$PROJECT_DIR$/src/patr3/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arcsinTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2332">
-              <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+            <state relative-caret-position="528">
+              <caret line="39" column="5" selection-start-line="32" selection-start-column="3" selection-end-line="39" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
+                <element signature="e#309#310#0" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+                <element signature="e#532#533#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AVLTree.java">
+        <entry file="file://$PROJECT_DIR$/src/patr3/PersonName.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-98">
-              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            <state relative-caret-position="88">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/patr3/Universe_object.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="520">
+              <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#219#220#0" expanded="true" />
-                <element signature="e#259#260#0" expanded="true" />
-                <element signature="e#6204#6210#0" expanded="true" />
-                <element signature="e#6251#6257#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+                <element signature="e#445#446#0" expanded="true" />
+                <element signature="e#498#499#0" expanded="true" />
+                <element signature="e#536#537#0" expanded="true" />
+                <element signature="e#568#569#0" expanded="true" />
+                <element signature="e#596#597#0" expanded="true" />
+                <element signature="e#658#659#0" expanded="true" />
+                <element signature="e#685#686#0" expanded="true" />
+                <element signature="e#739#740#0" expanded="true" />
+                <element signature="e#766#767#0" expanded="true" />
+                <element signature="e#810#811#0" expanded="true" />
+                <element signature="e#848#849#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/patr3/Action.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/patr3/StretchAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="e#112#113#0" expanded="true" />
+                <element signature="e#139#140#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#341#342#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/patr3/WatchAroundActon.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#339#340#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/patr3/Script.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+              <folding>
+                <element signature="e#683#684#0" expanded="true" />
+                <element signature="e#706#707#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/AVLTreeTest.java">
+        <entry file="uml://JAVA/patr3">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>patr3</OriginalElement>
+              <nodes>
+                <node x="995.2083333333334" y="477.0">patr3.PersonName</node>
+                <node x="0.0" y="665.5">patr3.JumpTolegAction</node>
+                <node x="570.0" y="665.5">patr3.WatchAroundActon</node>
+                <node x="1112.0" y="665.5">patr3.ShineAction</node>
+                <node x="598.7291666666669" y="0.0">patr3.Universe_objectName</node>
+                <node x="285.0" y="665.5">patr3.StretchAction</node>
+                <node x="855.0" y="610.0">patr3.Person</node>
+                <node x="967.7202380952382" y="0.0">patr3.SerfaceType</node>
+                <node x="694.1875000000001" y="455.0">patr3.Action</node>
+                <node x="616.3541666666669" y="101.0">patr3.Universe_object</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="patr3.Universe_object" target="patr3.Action">
+                  <point x="34.85714285714289" y="147.0" />
+                  <point x="773.2113095238097" y="435.0" />
+                  <point x="826.6875000000001" y="435.0" />
+                  <point x="0.0" y="-47.5" />
+                </edge>
+                <edge source="patr3.ShineAction" target="patr3.SerfaceType">
+                  <point x="88.33333333333326" y="-47.5" />
+                  <point x="1332.8333333333333" y="590.0" />
+                  <point x="1278.832775297619" y="590.0" />
+                  <point x="1278.832775297619" y="81.0" />
+                  <point x="1060.220238095238" y="81.0" />
+                  <point x="37.0" y="25.5" />
+                </edge>
+                <edge source="patr3.Person" target="patr3.PersonName">
+                  <point x="29.625" y="-103.0" />
+                  <point x="1003.125" y="590.0" />
+                  <point x="1024.2083333333335" y="590.0" />
+                  <point x="-29.0" y="25.5" />
+                </edge>
+                <edge source="patr3.StretchAction" target="patr3.Universe_object">
+                  <point x="-66.25" y="-47.5" />
+                  <point x="351.25" y="425.0" />
+                  <point x="668.6398809523812" y="425.0" />
+                  <point x="-69.71428571428567" y="147.0" />
+                </edge>
+                <edge source="patr3.Person" target="patr3.Action">
+                  <point x="-88.875" y="-103.0" />
+                  <point x="884.625" y="590.0" />
+                  <point x="848.7708333333334" y="590.0" />
+                  <point x="22.083333333333258" y="47.5" />
+                </edge>
+                <edge source="patr3.WatchAroundActon" target="patr3.Universe_object">
+                  <point x="-66.25" y="-47.5" />
+                  <point x="636.25" y="570.0" />
+                  <point x="642.0416666666667" y="570.0" />
+                  <point x="642.0416666666667" y="435.0" />
+                  <point x="703.497023809524" y="435.0" />
+                  <point x="-34.85714285714289" y="147.0" />
+                </edge>
+                <edge source="patr3.JumpTolegAction" target="patr3.Action">
+                  <point x="66.25" y="-47.5" />
+                  <point x="198.75" y="580.0" />
+                  <point x="716.2708333333335" y="580.0" />
+                  <point x="-110.41666666666663" y="47.5" />
+                </edge>
+                <edge source="patr3.Action" target="patr3.Universe_object">
+                  <point x="-88.33333333333326" y="-47.5" />
+                  <point x="0.0" y="147.0" />
+                </edge>
+                <edge source="patr3.ShineAction" target="patr3.Action">
+                  <point x="-88.33333333333331" y="-47.5" />
+                  <point x="1156.1666666666667" y="580.0" />
+                  <point x="937.1041666666667" y="580.0" />
+                  <point x="110.41666666666663" y="47.5" />
+                </edge>
+                <edge source="patr3.ShineAction" target="patr3.Universe_object">
+                  <point x="0.0" y="-47.5" />
+                  <point x="1244.5" y="590.0" />
+                  <point x="1267.832775297619" y="590.0" />
+                  <point x="1267.832775297619" y="415.0" />
+                  <point x="842.9255952380954" y="415.0" />
+                  <point x="104.57142857142856" y="147.0" />
+                </edge>
+                <edge source="patr3.JumpTolegAction" target="patr3.Universe_object">
+                  <point x="-66.25" y="-47.5" />
+                  <point x="66.25" y="415.0" />
+                  <point x="633.7827380952383" y="415.0" />
+                  <point x="-104.57142857142856" y="147.0" />
+                </edge>
+                <edge source="patr3.StretchAction" target="patr3.Action">
+                  <point x="66.25" y="-47.5" />
+                  <point x="483.75" y="590.0" />
+                  <point x="760.4375000000001" y="590.0" />
+                  <point x="-66.25" y="47.5" />
+                </edge>
+                <edge source="patr3.Universe_object" target="patr3.Universe_objectName">
+                  <point x="-91.5" y="-147.0" />
+                  <point x="646.8541666666669" y="81.0" />
+                  <point x="639.4791666666669" y="81.0" />
+                  <point x="-40.75" y="25.5" />
+                </edge>
+                <edge source="patr3.WatchAroundActon" target="patr3.Action">
+                  <point x="66.25" y="-47.5" />
+                  <point x="768.75" y="590.0" />
+                  <point x="804.6041666666667" y="590.0" />
+                  <point x="-22.08333333333337" y="47.5" />
+                </edge>
+                <edge source="patr3.Universe_object" target="patr3.SerfaceType">
+                  <point x="30.5" y="-147.0" />
+                  <point x="768.8541666666669" y="71.0" />
+                  <point x="986.2202380952382" y="71.0" />
+                  <point x="-37.0" y="25.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="710.0" y="567.5" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/patr3/Universe_objectName.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1532">
-              <caret line="213" column="40" selection-start-line="213" selection-start-column="40" selection-end-line="213" selection-end-column="40" />
+            <state relative-caret-position="66">
+              <caret line="3" column="31" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/patr3/JumpTolegAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -98,8 +301,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -116,6 +319,17 @@
         <option value="$PROJECT_DIR$/src/AVLTree.java" />
         <option value="$PROJECT_DIR$/src/arcsin.java" />
         <option value="$PROJECT_DIR$/src/AVLTreeTest.java" />
+        <option value="$PROJECT_DIR$/src/patr3/Person.java" />
+        <option value="$PROJECT_DIR$/src/patr3/PersonName.java" />
+        <option value="$PROJECT_DIR$/src/patr3/SerfaceType.java" />
+        <option value="$PROJECT_DIR$/src/patr3/Universe_objectName.java" />
+        <option value="$PROJECT_DIR$/src/patr3/Action.java" />
+        <option value="$PROJECT_DIR$/src/patr3/ShineAction.java" />
+        <option value="$PROJECT_DIR$/src/patr3/JumpTolegAction.java" />
+        <option value="$PROJECT_DIR$/src/patr3/StretchAction.java" />
+        <option value="$PROJECT_DIR$/src/patr3/WatchAroundActon.java" />
+        <option value="$PROJECT_DIR$/src/patr3/Script.java" />
+        <option value="$PROJECT_DIR$/src/patr3/Universe_object.java" />
       </list>
     </option>
   </component>
@@ -150,6 +364,12 @@
               <item name="part1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="lab1_part1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="part1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="patr3" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -162,14 +382,15 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1601212631503" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1601226568588" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -270,7 +491,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601128266002</updated>
       <workItem from="1601128269195" duration="13413000" />
-      <workItem from="1601193278657" duration="17915000" />
+      <workItem from="1601193278657" duration="27662000" />
     </task>
     <servers />
   </component>
@@ -307,7 +528,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31328000" />
+    <option name="totallyTimeSpent" value="41075000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -322,7 +543,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31236443" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.312026" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -355,20 +576,20 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/arcsinTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2332">
-          <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/arcsin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
           <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AVLTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1532">
+          <caret line="213" column="40" selection-start-line="213" selection-start-column="40" selection-end-line="213" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -386,13 +607,261 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AVLTreeTest.java">
+    <entry file="file://$PROJECT_DIR$/src/patr3/SerfaceType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1532">
-          <caret line="213" column="40" selection-start-line="213" selection-start-column="40" selection-end-line="213" selection-end-column="40" />
+        <state relative-caret-position="44">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arcsinTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="109" column="43" selection-start-line="109" selection-start-column="19" selection-end-line="109" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patr3/ShineAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#137#138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patr3/JumpTolegAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patr3/StretchAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="e#112#113#0" expanded="true" />
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patr3/WatchAroundActon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patr3/Action.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patr3/Universe_objectName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patr3/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="39" column="5" selection-start-line="32" selection-start-column="3" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patr3/PersonName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patr3/Universe_object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+          <folding>
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patr3/Script.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+          <folding>
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/patr3">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>patr3</OriginalElement>
+          <nodes>
+            <node x="995.2083333333334" y="477.0">patr3.PersonName</node>
+            <node x="0.0" y="665.5">patr3.JumpTolegAction</node>
+            <node x="570.0" y="665.5">patr3.WatchAroundActon</node>
+            <node x="1112.0" y="665.5">patr3.ShineAction</node>
+            <node x="598.7291666666669" y="0.0">patr3.Universe_objectName</node>
+            <node x="285.0" y="665.5">patr3.StretchAction</node>
+            <node x="855.0" y="610.0">patr3.Person</node>
+            <node x="967.7202380952382" y="0.0">patr3.SerfaceType</node>
+            <node x="694.1875000000001" y="455.0">patr3.Action</node>
+            <node x="616.3541666666669" y="101.0">patr3.Universe_object</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="patr3.Universe_object" target="patr3.Action">
+              <point x="34.85714285714289" y="147.0" />
+              <point x="773.2113095238097" y="435.0" />
+              <point x="826.6875000000001" y="435.0" />
+              <point x="0.0" y="-47.5" />
+            </edge>
+            <edge source="patr3.ShineAction" target="patr3.SerfaceType">
+              <point x="88.33333333333326" y="-47.5" />
+              <point x="1332.8333333333333" y="590.0" />
+              <point x="1278.832775297619" y="590.0" />
+              <point x="1278.832775297619" y="81.0" />
+              <point x="1060.220238095238" y="81.0" />
+              <point x="37.0" y="25.5" />
+            </edge>
+            <edge source="patr3.Person" target="patr3.PersonName">
+              <point x="29.625" y="-103.0" />
+              <point x="1003.125" y="590.0" />
+              <point x="1024.2083333333335" y="590.0" />
+              <point x="-29.0" y="25.5" />
+            </edge>
+            <edge source="patr3.StretchAction" target="patr3.Universe_object">
+              <point x="-66.25" y="-47.5" />
+              <point x="351.25" y="425.0" />
+              <point x="668.6398809523812" y="425.0" />
+              <point x="-69.71428571428567" y="147.0" />
+            </edge>
+            <edge source="patr3.Person" target="patr3.Action">
+              <point x="-88.875" y="-103.0" />
+              <point x="884.625" y="590.0" />
+              <point x="848.7708333333334" y="590.0" />
+              <point x="22.083333333333258" y="47.5" />
+            </edge>
+            <edge source="patr3.WatchAroundActon" target="patr3.Universe_object">
+              <point x="-66.25" y="-47.5" />
+              <point x="636.25" y="570.0" />
+              <point x="642.0416666666667" y="570.0" />
+              <point x="642.0416666666667" y="435.0" />
+              <point x="703.497023809524" y="435.0" />
+              <point x="-34.85714285714289" y="147.0" />
+            </edge>
+            <edge source="patr3.JumpTolegAction" target="patr3.Action">
+              <point x="66.25" y="-47.5" />
+              <point x="198.75" y="580.0" />
+              <point x="716.2708333333335" y="580.0" />
+              <point x="-110.41666666666663" y="47.5" />
+            </edge>
+            <edge source="patr3.Action" target="patr3.Universe_object">
+              <point x="-88.33333333333326" y="-47.5" />
+              <point x="0.0" y="147.0" />
+            </edge>
+            <edge source="patr3.ShineAction" target="patr3.Action">
+              <point x="-88.33333333333331" y="-47.5" />
+              <point x="1156.1666666666667" y="580.0" />
+              <point x="937.1041666666667" y="580.0" />
+              <point x="110.41666666666663" y="47.5" />
+            </edge>
+            <edge source="patr3.ShineAction" target="patr3.Universe_object">
+              <point x="0.0" y="-47.5" />
+              <point x="1244.5" y="590.0" />
+              <point x="1267.832775297619" y="590.0" />
+              <point x="1267.832775297619" y="415.0" />
+              <point x="842.9255952380954" y="415.0" />
+              <point x="104.57142857142856" y="147.0" />
+            </edge>
+            <edge source="patr3.JumpTolegAction" target="patr3.Universe_object">
+              <point x="-66.25" y="-47.5" />
+              <point x="66.25" y="415.0" />
+              <point x="633.7827380952383" y="415.0" />
+              <point x="-104.57142857142856" y="147.0" />
+            </edge>
+            <edge source="patr3.StretchAction" target="patr3.Action">
+              <point x="66.25" y="-47.5" />
+              <point x="483.75" y="590.0" />
+              <point x="760.4375000000001" y="590.0" />
+              <point x="-66.25" y="47.5" />
+            </edge>
+            <edge source="patr3.Universe_object" target="patr3.Universe_objectName">
+              <point x="-91.5" y="-147.0" />
+              <point x="646.8541666666669" y="81.0" />
+              <point x="639.4791666666669" y="81.0" />
+              <point x="-40.75" y="25.5" />
+            </edge>
+            <edge source="patr3.WatchAroundActon" target="patr3.Action">
+              <point x="66.25" y="-47.5" />
+              <point x="768.75" y="590.0" />
+              <point x="804.6041666666667" y="590.0" />
+              <point x="-22.08333333333337" y="47.5" />
+            </edge>
+            <edge source="patr3.Universe_object" target="patr3.SerfaceType">
+              <point x="30.5" y="-147.0" />
+              <point x="768.8541666666669" y="71.0" />
+              <point x="986.2202380952382" y="71.0" />
+              <point x="-37.0" y="25.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="710.0" y="567.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
