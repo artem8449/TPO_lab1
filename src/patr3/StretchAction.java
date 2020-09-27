@@ -7,7 +7,7 @@ public class StretchAction implements Action {
     }
 
     @Override
-    public void setLightlevel(Universe_object obj) {
+    public void setLightlevel(Universe_object obj, Person pers) {
 
     }
 

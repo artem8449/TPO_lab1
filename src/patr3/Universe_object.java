@@ -13,7 +13,7 @@ public class Universe_object {
 
     Universe_objectName name;
 
-    Double lightlevel;
+    Double lightlevel = 0.0;
 
     SerfaceType type;
 
@@ -41,6 +41,10 @@ public class Universe_object {
 
     public void setLightlevel(double level) {
         this.lightlevel = level;
+    }
+
+    public Double getLightlevel() {
+       return lightlevel;
     }
 
     public boolean doAction(){

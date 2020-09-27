@@ -8,6 +8,8 @@ public class Person {
         this.actions = actions;
     }
 
+    Double seelightlevel = 0.0;
+
     public Stack<Action> getActions() {
         return actions;
     }
@@ -20,6 +22,10 @@ public class Person {
 
     public Action getState() {
         return state;
+    }
+
+    public Double getSeelightlevel() {
+        return seelightlevel;
     }
 
     private Action state;
