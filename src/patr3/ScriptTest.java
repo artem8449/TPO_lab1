@@ -10,15 +10,21 @@ public class ScriptTest {
     Script script;
     Action[] zafodActions, universeActions;
 
+    JumpTolegAction jumpTolegAction = new JumpTolegAction();
+    WatchAroundActon watchAroundActon = new WatchAroundActon();
+    StretchAction stretchAction = new StretchAction();
+    ShineAction shineAction = new ShineAction();
+
     @Before
     public void setUp() throws Exception {
         script = new Script();
+
         zafodActions = new Action[script.actNum];
-        zafodActions[0] = new JumpTolegAction();
-        zafodActions[1] = new WatchAroundActon();
+        zafodActions[0] = jumpTolegAction;
+        zafodActions[1] = watchAroundActon;
         universeActions = new Action[script.actNum];
-        universeActions[0] = new StretchAction();
-        universeActions[1] = new ShineAction();
+        universeActions[0] = stretchAction;
+        universeActions[1] = shineAction;
 
     }
 
@@ -28,6 +34,7 @@ public class ScriptTest {
         assertEquals(script.planet.getName(), Universe_objectName.PLANET);
         assertEquals(script.zafod.getActions().size(), script.actNum);
         assertEquals(script.planet.getActions().size(), script.actNum);
+        assertEquals(script.planet.getType(), SerfaceType.GOLD);
     }
 
     @Test
@@ -42,20 +49,44 @@ public class ScriptTest {
     }
 
     @Test
-    public void lightlevel() throws Exception {
+    public void lightlevelplanet() throws Exception {
 
         double lightlevel = Double.POSITIVE_INFINITY;
-        int i = 0;
-        while (script.nextState()) {
-            if (i == 0) {
-                assertEquals(script.planet.getLightlevel(), lightlevel, 1E-5);
-                assertEquals(script.zafod.getSeelightlevel(), lightlevel, 1E-5);
-                i++;
-            }
+        stretchAction.getDescription();
+        shineAction.getDescription();
+        shineAction.setLightlevel(script.planet, script.zafod);
+        shineAction.getLightLevel(script.planet);
+        jumpTolegAction.getDescription();
+        watchAroundActon.getDescription();
+        watchAroundActon.setLightlevel(script.planet, script.zafod);
+
+
+
+        assertEquals(script.planet.getLightlevel(), lightlevel, 1E-5);
 
 
         }
+
+
+    @Test
+    public void lightlevelperson() throws Exception {
+
+        double lightlevel = Double.POSITIVE_INFINITY;
+        stretchAction.getDescription();
+        shineAction.getDescription();
+        shineAction.setLightlevel(script.planet, script.zafod);
+        shineAction.getLightLevel(script.planet);
+        jumpTolegAction.getDescription();
+        jumpTolegAction.setLightlevel(script.planet, script.zafod);
+        watchAroundActon.getDescription();
+        watchAroundActon.setLightlevel(script.planet, script.zafod);
+
+
+        assertEquals(script.zafod.getSeelightlevel(), lightlevel, 1E-5);
+
     }
 
 
-}
+    }
+
+

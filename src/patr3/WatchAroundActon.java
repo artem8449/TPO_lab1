@@ -9,6 +9,7 @@ public class WatchAroundActon implements Action{
 
     @Override
     public void setLightlevel(Universe_object obj, Person pers) {
+        if(pers.standup == 1)
         pers.seelightlevel = obj.lightlevel;
 
     }
