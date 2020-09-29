@@ -3,15 +3,18 @@ package patr3;
 import java.util.Stack;
 
 public class Person {
+    
+    Integer standUp = 0;
+    Double seeLightLevel = 0.0;
+    private Stack<Action> actions;
+    private Action state;
+    PersonName name;
+
     public Person(PersonName name, Stack<Action> actions) {
         this.name = name;
         this.actions = actions;
     }
-
-    Integer standup = 0;
-
-    Double seelightlevel = 0.0;
-
+    
     public Stack<Action> getActions() {
         return actions;
     }
@@ -20,27 +23,22 @@ public class Person {
         this.actions = actions;
     }
 
-    private Stack<Action> actions;
-
     public Action getState() {
         return state;
     }
 
-    public Double getSeelightlevel() {
-        return seelightlevel;
+    public Double getSeeLightLevel() {
+        return seeLightLevel;
     }
 
-    public Integer getStandup() {
-        return standup;
+    public Integer getStandUp() {
+        return standUp;
     }
-
-    private Action state;
-
+    
     public PersonName getName() {
         return name;
     }
-
-    PersonName name;
+    
 
     public boolean doAction(){
         if( actions.size() > 0 ) {

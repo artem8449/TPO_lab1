@@ -108,19 +108,12 @@ public class AVLTree {
 
     public  void preOrder(Node root, AVLTree t) {
 
-        //StringBuilder builder = new StringBuilder();
-       // t.answ = "";
         if (root != null) {
             preOrder(root.left, t);
-           // System.out.printf("%d ", root.value);
-           // res = res + Integer.toString(root.value) + " ";
-           // builder.append(root.value).append(" ");
+
             t.answ = t.answ + Integer.toString(root.value) + " ";
             preOrder(root.right, t);
         }
-       // String result = builder.toString();
-       // System.out.printf(result);
-       // return result;
 
     }
 

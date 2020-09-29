@@ -3,19 +3,23 @@ package patr3;
 import java.util.Stack;
 
 public class Universe_object {
+
+
+    private Stack<Action> actions;
+    Universe_objectName name;
+    Double lightLevel = 0.0;
+    SerfaceType type;
+    private Action state;
+
+
+
     public Universe_object(Universe_objectName name, Stack<Action> actions, SerfaceType type) {
         this.name = name;
         this.actions = actions;
         this.type = type;
     }
 
-    private Stack<Action> actions;
 
-    Universe_objectName name;
-
-    Double lightlevel = 0.0;
-
-    SerfaceType type;
 
     public Stack<Action> getActions() {
         return actions;
@@ -29,8 +33,6 @@ public class Universe_object {
         return state;
     }
 
-    private Action state;
-
     public Universe_objectName getName() {
         return name;
     }
@@ -39,12 +41,12 @@ public class Universe_object {
         return type;
     }
 
-    public void setLightlevel(double level) {
-        this.lightlevel = level;
+    public void setLightLevel(double level) {
+        this.lightLevel = level;
     }
 
-    public Double getLightlevel() {
-       return lightlevel;
+    public Double getLightLevel() {
+       return lightLevel;
     }
 
     public boolean doAction(){

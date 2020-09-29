@@ -6,7 +6,7 @@ public class AVLTreeTest {
 
 
     @Test
-    public void testaddsingleNode() {
+    public void testAddSingleNode() {
         AVLTree tree = new AVLTree();
         AVLTree.Node root = null;
         root = tree.insert(root, 25);
@@ -15,8 +15,7 @@ public class AVLTreeTest {
     }
 
     @Test
-    public void testDeletsingleNode(){
-       // String res = "";
+    public void testDeletSingleNode(){
         AVLTree tree = new AVLTree();
         AVLTree.Node root = null;
 
@@ -45,7 +44,7 @@ public class AVLTreeTest {
     }
 
     @Test
-    public void testDeletallNode(){
+    public void testDeleteAllNode(){
         AVLTree tree = new AVLTree();
         AVLTree.Node root = null;
 
@@ -68,7 +67,7 @@ public class AVLTreeTest {
     }
 
     @Test
-    public void  testDeletsmallestNode(){
+    public void  testDeleteSmallestNode(){
         AVLTree tree = new AVLTree();
         AVLTree.Node root = null;
 
@@ -89,7 +88,7 @@ public class AVLTreeTest {
 
 
     @Test
-    public void  testDelethighestNode(){
+    public void  testDeleteHighestNode(){
         AVLTree tree = new AVLTree();
         AVLTree.Node root = null;
 
@@ -109,7 +108,7 @@ public class AVLTreeTest {
     }
 
     @Test
-    public void testDeletтщтшыNode(){
+    public void testDeleteNoneNode(){
         AVLTree tree = new AVLTree();
         AVLTree.Node root = null;
 
@@ -129,7 +128,7 @@ public class AVLTreeTest {
     }
 
     @Test
-    public void testLeftsmallRotate(){
+    public void testLeftSmallRotate(){
         AVLTree tree = new AVLTree();
         AVLTree.Node root = null;
 
@@ -143,7 +142,7 @@ public class AVLTreeTest {
     }
 
     @Test
-    public void testRightsmallRotate(){
+    public void testRightSmallRotate(){
         AVLTree tree = new AVLTree();
         AVLTree.Node root = null;
 
@@ -196,7 +195,7 @@ public class AVLTreeTest {
     }
 
     @Test
-    public void testTreeHightnonNod(){
+    public void testTreeHightNonNode(){
         AVLTree tree = new AVLTree();
         AVLTree.Node root = null;
 
@@ -205,7 +204,7 @@ public class AVLTreeTest {
     }
 
     @Test
-    public void testTreeHightoneNod(){
+    public void testTreeHightOneNode(){
         AVLTree tree = new AVLTree();
         AVLTree.Node root = null;
 

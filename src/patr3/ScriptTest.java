@@ -16,7 +16,7 @@ public class ScriptTest {
     ShineAction shineAction = new ShineAction();
 
     @Before
-    public void setUp() throws Exception {
+    public void setUp() {
         script = new Script(0);
 
         zafodActions = new Action[script.actNum];
@@ -29,7 +29,7 @@ public class ScriptTest {
     }
 
     @Test
-    public void initscene() throws Exception {
+    public void initScene() {
         assertEquals(script.zafod.getName(), PersonName.ZAFOD);
         assertEquals(script.planet.getName(), Universe_objectName.PLANET);
         assertEquals(script.zafod.getActions().size(), script.actNum);
@@ -38,7 +38,7 @@ public class ScriptTest {
     }
 
     @Test
-    public void scriptpath() throws Exception {
+    public void scriptPath() {
         int i = 0;
         while(script.nextState()) {
             assertEquals(script.planet.getState(), universeActions[i]);
@@ -49,40 +49,38 @@ public class ScriptTest {
     }
 
     @Test
-    public void lightlevelplanet() throws Exception {
+    public void lightLevelPlanet()  {
 
-        double lightlevel = Double.POSITIVE_INFINITY;
+        double lightLevel = Double.POSITIVE_INFINITY;
         stretchAction.getDescription();
         shineAction.getDescription();
-        shineAction.setLightlevel(script.planet, script.zafod);
+        shineAction.setLightLevel(script.planet, script.zafod);
         shineAction.getLightLevel(script.planet);
         jumpTolegAction.getDescription();
         watchAroundActon.getDescription();
-        watchAroundActon.setLightlevel(script.planet, script.zafod);
+        watchAroundActon.setLightLevel(script.planet, script.zafod);
 
 
-
-        assertEquals(script.planet.getLightlevel(), lightlevel, 1E-5);
+        assertEquals(script.planet.getLightLevel(), lightLevel, 1E-5);
 
 
         }
 
 
     @Test
-    public void lightlevelperson() throws Exception {
+    public void lightLevelPerson()  {
 
-        double lightlevel = Double.POSITIVE_INFINITY;
+        double lightLevel = Double.POSITIVE_INFINITY;
         stretchAction.getDescription();
         shineAction.getDescription();
-        shineAction.setLightlevel(script.planet, script.zafod);
+        shineAction.setLightLevel(script.planet, script.zafod);
         shineAction.getLightLevel(script.planet);
         jumpTolegAction.getDescription();
-        jumpTolegAction.setLightlevel(script.planet, script.zafod);
+        jumpTolegAction.setLightLevel(script.planet, script.zafod);
         watchAroundActon.getDescription();
-        watchAroundActon.setLightlevel(script.planet, script.zafod);
+        watchAroundActon.setLightLevel(script.planet, script.zafod);
 
-
-        assertEquals(script.zafod.getSeelightlevel(), lightlevel, 1E-5);
+        assertEquals(script.zafod.getSeeLightLevel(), lightLevel, 1E-5);
 
     }
 

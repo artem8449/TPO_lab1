@@ -1,125 +1,127 @@
 import org.junit.Test;
+import org.junit.jupiter.api.DisplayName;
 
 import static org.junit.Assert.*;
 
-public class arcsinTest {
+public class ArcsinTest {
 
     private static final double E  = 1E-6;
     private static final double DELTA = 1E-5;
 
+
     @Test
-    public void testFuncneginf(){
+    public void testNegativeInfinity(){
         double x = Double.NEGATIVE_INFINITY;
-        assertEquals(Math.asin(x), arcsin.arcsin(x, E), DELTA);
+        assertEquals(Math.asin(x), Arcsin.seriesTeilor(x, E), DELTA);
     }
 
     @Test
-    public void testFunczona11(){
+    public void testBelowNegativeOne(){
         double x = -7;
-        assertEquals(Math.asin(x), arcsin.arcsin(x, E), DELTA);
+        assertEquals(Math.asin(x), Arcsin.seriesTeilor(x, E), DELTA);
     }
 
     @Test
-    public void testFunczona12(){
+    public void testBelowNegativeOne2(){
         double x = -2;
-        assertEquals(Math.asin(x), arcsin.arcsin(x, E), DELTA);
+        assertEquals(Math.asin(x), Arcsin.seriesTeilor(x, E), DELTA);
     }
 
     @Test
-    public void testFuncnnegone(){
+    public void testNegativeOne(){
         double x = -1;
-        assertEquals(Math.asin(x), arcsin.arcsin(x, E), DELTA);
+        assertEquals(Math.asin(x), Arcsin.seriesTeilor(x, E), DELTA);
     }
 
     @Test
-    public void testFuncnnegnegzero8(){
+    public void testNegativeBorder(){
         double x = -0.8;
-        assertEquals(Math.asin(x), arcsin.arcsin(x, E), DELTA);
+        assertEquals(Math.asin(x), Arcsin.seriesTeilor(x, E), DELTA);
     }
 
     @Test
-    public void testFuncnnegzona21(){
+    public void testNegativeBelowBorder1(){
         double x = -0.97;
-        assertEquals(Math.asin(x), arcsin.arcsin(x, E), DELTA);
+        assertEquals(Math.asin(x), Arcsin.seriesTeilor(x, E), DELTA);
     }
 
     @Test
-    public void testFuncnnegzona22(){
+    public void testNegativeBelowBorder2(){
         double x = -0.82;
-        assertEquals(Math.asin(x), arcsin.arcsin(x, E), DELTA);
+        assertEquals(Math.asin(x), Arcsin.seriesTeilor(x, E), DELTA);
     }
 
     @Test
-    public void testFuncnnegzero(){
+    public void testZero(){
         double x = 0;
-        assertEquals(Math.asin(x), arcsin.arcsin(x, E), DELTA);
+        assertEquals(Math.asin(x), Arcsin.seriesTeilor(x, E), DELTA);
     }
 
     @Test
-    public void testFuncnzona31(){
+    public void testNegativeUpperBorder1(){
         double x = -0.5;
-        assertEquals(Math.asin(x), arcsin.arcsin(x, E), DELTA);
+        assertEquals(Math.asin(x), Arcsin.seriesTeilor(x, E), DELTA);
     }
 
     @Test
-    public void testFuncnzona32(){
+    public void testNegativeUpperBorder2(){
         double x = -0.01;
-        assertEquals(Math.asin(x), arcsin.arcsin(x, E), DELTA);
+        assertEquals(Math.asin(x), Arcsin.seriesTeilor(x, E), DELTA);
     }
 
 
     @Test
-    public void testFuncnnegzero8(){
+    public void testPositiveBorder(){
         double x = 0.8;
-        assertEquals(Math.asin(x), arcsin.arcsin(x, E), DELTA);
+        assertEquals(Math.asin(x), Arcsin.seriesTeilor(x, E), DELTA);
     }
 
 
     @Test
-    public void testFuncnzona41(){
+    public void testPositiveBelowBorder1(){
         double x = 0.01;
-        assertEquals(Math.asin(x), arcsin.arcsin(x, E), DELTA);
+        assertEquals(Math.asin(x), Arcsin.seriesTeilor(x, E), DELTA);
     }
 
     @Test
-    public void testFuncnzona42(){
+    public void testPositiveBelowBorder2(){
         double x = 0.5;
-        assertEquals(Math.asin(x), arcsin.arcsin(x, E), DELTA);
+        assertEquals(Math.asin(x), Arcsin.seriesTeilor(x, E), DELTA);
     }
 
     @Test
-    public void testFuncnzone(){
+    public void testPositiveOne(){
         double x = 1;
-        assertEquals(Math.asin(x), arcsin.arcsin(x, E), DELTA);
+        assertEquals(Math.asin(x), Arcsin.seriesTeilor(x, E), DELTA);
     }
 
     @Test
-    public void testFuncnzona51(){
+    public void testPositiveUpperBorder1(){
         double x = 0.82;
-        assertEquals(Math.asin(x), arcsin.arcsin(x, E), DELTA);
+        assertEquals(Math.asin(x), Arcsin.seriesTeilor(x, E), DELTA);
     }
 
     @Test
-    public void testFuncnzona52(){
+    public void testPositiveUpperBorder2(){
         double x = 0.97;
-        assertEquals(Math.asin(x), arcsin.arcsin(x, E), DELTA);
+        assertEquals(Math.asin(x), Arcsin.seriesTeilor(x, E), DELTA);
     }
 
     @Test
-    public void testFuncinf(){
+    public void testPositiveInfinity(){
         double x = Double.POSITIVE_INFINITY;
-        assertEquals(Math.asin(x), arcsin.arcsin(x, E), DELTA);
+        assertEquals(Math.asin(x), Arcsin.seriesTeilor(x, E), DELTA);
     }
 
     @Test
-    public void testFuncnzona61(){
+    public void testAbovePositiveOne(){
         double x = 7;
-        assertEquals(Math.asin(x), arcsin.arcsin(x, E), DELTA);
+        assertEquals(Math.asin(x), Arcsin.seriesTeilor(x, E), DELTA);
     }
 
     @Test
-    public void testFuncnzona62(){
+    public void testAbovePositiveOne1(){
         double x = 2;
-        assertEquals(Math.asin(x), arcsin.arcsin(x, E), DELTA);
+        assertEquals(Math.asin(x), Arcsin.seriesTeilor(x, E), DELTA);
     }
 }
