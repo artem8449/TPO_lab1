@@ -17,7 +17,7 @@ public class ScriptTest {
 
     @Before
     public void setUp() throws Exception {
-        script = new Script();
+        script = new Script(0);
 
         zafodActions = new Action[script.actNum];
         zafodActions[0] = jumpTolegAction;

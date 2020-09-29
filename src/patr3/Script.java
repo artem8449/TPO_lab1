@@ -12,7 +12,7 @@ public class Script {
     StretchAction stretchAction = new StretchAction();
     ShineAction shineAction = new ShineAction();
 
-    public void restart(){
+    public void restart(int var){
         Stack<Action> zafodActions = new Stack<>();
 
         zafodActions.push(jumpTolegAction);
@@ -25,7 +25,9 @@ public class Script {
         universeActions.push(stretchAction);
 
         universeActions.push(shineAction);
+        if (var == 0)
         planet = new Universe_object(Universe_objectName.PLANET, universeActions, SerfaceType.GOLD);
+        else  planet = new Universe_object(Universe_objectName.PLANET, universeActions, SerfaceType.SILVER);
     }
 
     public void start(){
@@ -39,14 +41,14 @@ public class Script {
 
     }
 
-    public Script(){
-        restart();
-        start();
+    public Script(int variant){
+        restart(variant);
+    //    start();
     }
 
     public boolean nextState(){
-        boolean bodyNext = planet.doAction();
-        boolean fortNext = zafod.doAction();
-        return !fortNext || !bodyNext;
+        boolean planetNext = planet.doAction();
+        boolean zafodNext = zafod.doAction();
+        return !zafodNext || !planetNext;
     }
 }
