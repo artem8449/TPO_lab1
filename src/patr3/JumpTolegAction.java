@@ -7,14 +7,14 @@ public class JumpTolegAction implements Action {
     }
 
     @Override
-    public void setLightLevel(Universe_object obj, Person pers) {
+    public void setLightLevel(UniverseObject obj, Person pers) {
 
         pers.standUp = 1;
 
     }
 
     @Override
-    public String getLightLevel(Universe_object obj) {
+    public String getLightLevel(UniverseObject obj) {
         return null;
     }
 }

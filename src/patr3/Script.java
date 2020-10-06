@@ -6,7 +6,7 @@ public class Script {
 
     int actNum = 2;
     Person zafod;
-    Universe_object planet;
+    UniverseObject planet;
     JumpTolegAction jumpToLegAction = new JumpTolegAction();
     WatchAroundActon watchAroundActon = new WatchAroundActon();
     StretchAction stretchAction = new StretchAction();
@@ -23,9 +23,9 @@ public class Script {
         universeActions.push(shineAction);
 
         if (var == 0)
-            planet = new Universe_object(Universe_objectName.PLANET, universeActions, SerfaceType.GOLD);
+            planet = new UniverseObject(UniverseObjectName.PLANET, universeActions, SerfaceType.GOLD);
         else
-            planet = new Universe_object(Universe_objectName.PLANET, universeActions, SerfaceType.SILVER);
+            planet = new UniverseObject(UniverseObjectName.PLANET, universeActions, SerfaceType.SILVER);
     }
 
     public void start(){

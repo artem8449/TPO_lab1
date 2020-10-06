@@ -31,7 +31,7 @@ public class ScriptTest {
     @Test
     public void initScene() {
         assertEquals(script.zafod.getName(), PersonName.ZAFOD);
-        assertEquals(script.planet.getName(), Universe_objectName.PLANET);
+        assertEquals(script.planet.getName(), UniverseObjectName.PLANET);
         assertEquals(script.zafod.getActions().size(), script.actNum);
         assertEquals(script.planet.getActions().size(), script.actNum);
         assertEquals(script.planet.getType(), SerfaceType.GOLD);

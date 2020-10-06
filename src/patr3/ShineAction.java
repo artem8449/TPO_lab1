@@ -8,7 +8,7 @@ public class ShineAction implements Action {
     }
 
     @Override
-    public void setLightLevel(Universe_object obj, Person pers) {
+    public void setLightLevel(UniverseObject obj, Person pers) {
 
         SerfaceType type = SerfaceType.GOLD;
         double max = 100;
@@ -21,7 +21,7 @@ public class ShineAction implements Action {
     }
 
     @Override
-    public String getLightLevel(Universe_object obj) {
+    public String getLightLevel(UniverseObject obj) {
         if (obj.lightLevel < Double.POSITIVE_INFINITY) {
             String res = "с яркостью" + Double.toString(obj.lightLevel);
         }
