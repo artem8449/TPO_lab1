@@ -1,218 +1,132 @@
+import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
 public class AVLTreeTest {
+    AVLTree tree;
+    AVLTree.Node root;
 
+    @Before
+    public void createTree() {
+        tree = new AVLTree();
+        root = null;
+    }
 
     @Test
     public void testAddSingleNode() {
-        AVLTree tree = new AVLTree();
-        AVLTree.Node root = null;
-        root = tree.insert(root, 25);
+        root = tree.insertNode(root, 25);
         tree.preOrder(root, tree);
-        assertEquals("Таки едиственный узел добавился не правильно", "25 ", tree.answ);
+        assertEquals("Таки едиственный узел добавился неправильно", "25 ", tree.answer);
     }
 
     @Test
-    public void testDeletSingleNode(){
-        AVLTree tree = new AVLTree();
-        AVLTree.Node root = null;
-
-        root = tree.insert(root, 25);
+    public void testDeleteSingleNode() {
+        root = tree.insertNode(root, 25);
         root = tree.deleteNode(root, 25);
         tree.preOrder(root, tree);
-        assertEquals("Таки едиственный узел удалился не правильно", "", tree.answ);
+        assertEquals("Таки едиственный узел удалился не правильно", "", tree.answer);
     }
 
     @Test
-    public void testaddManyNode(){
-
+    public void testAddManyNodes() {
         String result = "";
 
-        AVLTree tree = new AVLTree();
-        AVLTree.Node root = null;
-
-
-        for (int i = 0; i<100; i++) {
-            root = tree.insert(root, i);
-            result = result + Integer.toString(i) + " ";
+        for (int i = 0; i < 100; i++) {
+            root = tree.insertNode(root, i);
+            result = result + i + " ";
         }
 
         tree.preOrder(root, tree);
-        assertEquals("Таки куча элементов добавилась не правильно", result, tree.answ);
+        assertEquals("Таки куча элементов добавилась не правильно", result, tree.answer);
     }
 
     @Test
-    public void testDeleteAllNode(){
-        AVLTree tree = new AVLTree();
-        AVLTree.Node root = null;
+    public void testDeleteAllNodes() {
+        for (int i = 40; i <= 90; i += 10)
+            root = tree.insertNode(root, i);
 
-        root = tree.insert(root, 40);
-        root = tree.insert(root, 50);
-        root = tree.insert(root, 60);
-        root = tree.insert(root, 70);
-        root = tree.insert(root, 80);
-        root = tree.insert(root, 90);
-        root = tree.deleteNode(root, 90);
-        root = tree.deleteNode(root, 80);
-        root = tree.deleteNode(root, 70);
-        root = tree.deleteNode(root, 60);
-        root = tree.deleteNode(root, 50);
-        root = tree.deleteNode(root, 40);
+        for (int i = 90; i >= 40; i -= 10)
+            root = tree.deleteNode(root, i);
 
         tree.preOrder(root, tree);
-        assertEquals("Таки куча элементов удалилась не правильно", "", tree.answ);
-
+        assertEquals("Таки куча элементов удалилась не правильно", "", tree.answer);
     }
 
     @Test
-    public void  testDeleteSmallestNode(){
-        AVLTree tree = new AVLTree();
-        AVLTree.Node root = null;
-
-        root = tree.insert(root, 20);
-        root = tree.insert(root, 30);
-        root = tree.insert(root, 40);
-        root = tree.insert(root, 50);
-        root = tree.insert(root, 60);
-        root = tree.insert(root, 35);
-
+    public void testDeleteSmallestNode() {
+        for (int i = 20; i <= 60; i += 10)
+            root = tree.insertNode(root, i);
 
         root = tree.deleteNode(root, 20);
-
         tree.preOrder(root, tree);
-        assertEquals("Наименьший элемнт удален не правильно", "30 35 40 50 60 ", tree.answ);
+        assertEquals("Наименьший элемнт удален не правильно", "30 40 50 60 ", tree.answer);
 
     }
 
-
     @Test
-    public void  testDeleteHighestNode(){
-        AVLTree tree = new AVLTree();
-        AVLTree.Node root = null;
-
-        root = tree.insert(root, 20);
-        root = tree.insert(root, 30);
-        root = tree.insert(root, 40);
-        root = tree.insert(root, 50);
-        root = tree.insert(root, 60);
-        root = tree.insert(root, 35);
-
+    public void testDeleteHighestNode() {
+        for (int i = 20; i <= 60; i += 10)
+            root = tree.insertNode(root, i);
 
         root = tree.deleteNode(root, 60);
-
         tree.preOrder(root, tree);
-        assertEquals("Наибольший элемнт удален не правильно", "20 30 35 40 50 ", tree.answ);
+        assertEquals("Наибольший элемнт удален не правильно", "20 30 40 50 ", tree.answer);
 
     }
 
     @Test
-    public void testDeleteNoneNode(){
-        AVLTree tree = new AVLTree();
-        AVLTree.Node root = null;
-
-        root = tree.insert(root, 20);
-        root = tree.insert(root, 30);
-        root = tree.insert(root, 40);
-        root = tree.insert(root, 50);
-        root = tree.insert(root, 60);
-        root = tree.insert(root, 35);
-
+    public void testDeleteMissingNode() {
+        for (int i = 20; i <= 60; i += 10)
+            root = tree.insertNode(root, i);
 
         root = tree.deleteNode(root, 200);
-
         tree.preOrder(root, tree);
-        assertEquals("Несуществующий элемнт удален не правильно", "20 30 35 40 50 60 ", tree.answ);
+        assertEquals("Несуществующий элемнт удален не правильно", "20 30 40 50 60 ", tree.answer);
 
     }
 
     @Test
-    public void testLeftSmallRotate(){
-        AVLTree tree = new AVLTree();
-        AVLTree.Node root = null;
-
-        root = tree.insert(root, 40);
-        root = tree.insert(root, 50);
-        root = tree.insert(root, 60);
-
+    public void testLeftSmallRotate() {
+        for (int i = 40; i <= 60; i += 10)
+            root = tree.insertNode(root, i);
 
         assertEquals("При малом левом повороте неправильная балансировка", 2, tree.height(root));
-
     }
 
     @Test
-    public void testRightSmallRotate(){
-        AVLTree tree = new AVLTree();
-        AVLTree.Node root = null;
-
-        root = tree.insert(root, 40);
-        root = tree.insert(root, 50);
-        root = tree.insert(root, 60);
-
+    public void testRightSmallRotate() {
+        for (int i = 40; i <= 60; i += 10)
+            root = tree.insertNode(root, i);
 
         assertEquals("При малом правом повороте неправильная балансировка", 2, tree.height(root));
     }
 
     @Test
-    public void testLeftBigRotate(){
-        AVLTree tree = new AVLTree();
-        AVLTree.Node root = null;
-
-        root = tree.insert(root, 10);
-        root = tree.insert(root, 20);
-        root = tree.insert(root, 30);
-        root = tree.insert(root, 40);
-        root = tree.insert(root, 50);
-        root = tree.insert(root, 60);
-        root = tree.insert(root, 70);
-        root = tree.insert(root, 80);
-        root = tree.insert(root, 90);
-        root = tree.insert(root, 100);
-        root = tree.insert(root, 110);
+    public void testLeftBigRotate() {
+        for (int i = 10; i <= 110; i += 10)
+            root = tree.insertNode(root, i);
 
         assertEquals("При большом левом повороте неправильная балансировка", 4, tree.height(root));
     }
 
     @Test
-    public void testRightBihRotate(){
-        AVLTree tree = new AVLTree();
-        AVLTree.Node root = null;
-
-        root = tree.insert(root, 110);
-        root = tree.insert(root, 100);
-        root = tree.insert(root, 90);
-        root = tree.insert(root, 80);
-        root = tree.insert(root, 70);
-        root = tree.insert(root, 60);
-        root = tree.insert(root, 50);
-        root = tree.insert(root, 40);
-        root = tree.insert(root, 30);
-        root = tree.insert(root, 20);
-        root = tree.insert(root, 10);
+    public void testRightBihRotate() {
+        for (int i = 110; i >= 10; i -= 10)
+            root = tree.insertNode(root, i);
 
         assertEquals("При большом правом повороте неправильная балансировка", 4, tree.height(root));
     }
 
     @Test
-    public void testTreeHightNonNode(){
-        AVLTree tree = new AVLTree();
-        AVLTree.Node root = null;
-
+    public void testTreeHeightNonNode() {
         assertEquals("Высота дерева без вершин не верна", 0, tree.height(root));
-
     }
 
     @Test
-    public void testTreeHightOneNode(){
-        AVLTree tree = new AVLTree();
-        AVLTree.Node root = null;
-
-        root = tree.insert(root, 100);
+    public void testTreeHeightOneNode() {
+        root = tree.insertNode(root, 100);
 
         assertEquals("Высота дерева ч одним узлом не верна", 1, tree.height(root));
-
     }
-
-
 }
